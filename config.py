@@ -15,6 +15,7 @@ REDIRECT_URI = 'http://localhost:3000/callback'
 SCOPEs = ['app-remote-control', 'user-read-playback-state', 'user-modify-playback-state']
 
 #Settings (CHANGE THESE)
+CAMERA_NUMBER = 0 #Change if the wrong camera is being used
 SS_NUMBER = 3 #Number of fingers bound to the start/stop action
 SKIP_NUMBER = 0 #Number of fingers bound to the skip action
 CALIBRATION_TIME = 30 #Time to calibrate

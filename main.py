@@ -8,7 +8,7 @@ from spotify_function import start_stop_song
 
 def main():
     # capture video
-    capture = cv2.VideoCapture(1)
+    capture = cv2.VideoCapture(c.CAMERA_NUMBER)
     while (True):
         #get current frame in image and flip to mirrorx
         ret, frame = capture.read()
