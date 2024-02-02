@@ -1,0 +1,17 @@
+Setup:
+1. Go to https://developer.spotify.com/
+2. Sign in and go to the dashboard
+3. Create an application in the dashboard
+4. Set the redirect URI to http://localhost:3000/callback
+5. Get the client ID and secret ID from the application settings
+6. Change the boilerplate text in config.py to the information from the spotify application
+7. Run main.py
+
+Press 'x' to exit
+Press 'r' to recalibrate
+
+If you aren't being properly detected by the camera mess around with the settings in config
+Diffrent settings work best for diffrent skin tones
+
+Credits for base finger recognition code: https://github.com/ishfulthinking/Python-Hand-Gesture-Recognition?tab=readme-ov-file
+Credits for base spotify code: https://stackoverflow.com/questions/76559444/issue-im-trying-to-pause-spotify-playing-using-a-python-script
